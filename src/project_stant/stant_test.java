@@ -30,19 +30,20 @@ public class stant_test {
 				if (line.matches("(.*)lightning(.*)")) {
 					lineTime = Integer.parseInt(line.replaceAll("(.*)lightning(.*)", "5"));
 					time += lineTime;
-					// System.out.println(lineTime);
+					System.out.println("\n" + lineTime);
+					System.out.println(line);
 					// System.out.println(time);
 				} else {
 					lineTime = Integer.parseInt(line.replaceAll("[^0-9]+", ""));
 					time += lineTime;
-					// System.out.println(lineTime);
+					System.out.println("\n" + lineTime);
 					// System.out.println(time);
 
 					System.out.println(line);
 				}
 
 				if (time == 180) {
-					System.out.println("Almoço");
+					System.out.println("\nAlmoÃ§o");
 				}
 
 				// System.out.printf("%s\n", line + "\n");
@@ -52,13 +53,13 @@ public class stant_test {
 				line = fileBuffer.readLine();
 
 				// if (firstAccountant == 4) {
-				// System.out.println("Almoço\n");
+				// System.out.println("AlmoÃ§o\n");
 
 				// }
 
 			}
 
-			System.out.println("Track B:\n");
+			System.out.println("\nTrack B:\n");
 
 			// int secondAccountant = 11;
 			// while (line != null && secondAccountant < 21) {
@@ -71,7 +72,7 @@ public class stant_test {
 			// secondAccountant++;
 
 			// if (secondAccountant == 15) {
-			// System.out.println("Almoço\n");
+			// System.out.println("AlmoÃ§o\n");
 
 			// }
 
