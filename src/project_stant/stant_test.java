@@ -37,9 +37,8 @@ public class stant_test {
 					lineTime = Integer.parseInt(line.replaceAll("[^0-9]+", ""));
 					time += lineTime;
 					System.out.println("\n" + lineTime);
-					// System.out.println(time);
-
 					System.out.println(line);
+					// System.out.println(time);
 				}
 
 				if (time == 180) {
